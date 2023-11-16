@@ -1,16 +1,20 @@
 import React from 'react'
-import About from './container/About/About';
-import Footer from './container/Footer/Footer';
-import Header from './container/Header/Header';
-import Work from './container/Work/Work';
-import Skills from './container/Skills/Skills';
-import Testimonials from './container/Testimonial/Testimonials';
-
-
+import {About,Skills,Footer,Work,Testimonial,Header} from './container/index';
+import { NavBar } from './components/NavBar';
+import './App.scss'
 function App() {
   return (
-    
-      <h1>app</h1>
+    <div className='app'>
+      <NavBar/>
+      <Header/>
+      <About/>
+      <Skills/>
+      <Work/>
+      <Footer/>
+      <Testimonial/>
+
+    </div>
+      
    
   )
 }
