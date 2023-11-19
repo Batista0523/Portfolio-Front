@@ -18,8 +18,8 @@
     align-items: center;
   
     img {
-      width: 22vh;
-      height: 22vh;
+      width: 250px;
+      height: 150px;
       border-radius: 10px;
   
       @media screen and (min-width: 2000px) {
@@ -71,7 +71,7 @@
   }
   
   .app__navbar-menu {
-    display: none; /* Hide menu by default on larger screens */
+    display: none; /* this will Hide menu by default on larger screens  */
   
     @media screen and (max-width: 900px) {
       display: flex;
@@ -155,5 +155,6 @@
     @media screen and (min-width: 900px) {
       display: none;
     }
+    
   }
   
