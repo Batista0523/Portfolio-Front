@@ -34,8 +34,9 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-import viteLogo from '../assets/viteLogo.png';
-import postgreslq from '../assets/postgresql.png'
+import viteLogo from '../assets/vite.png'
+import postgreslq from '../assets/postgresql.png';
+
 export default {
   postgreslq,
   viteLogo,
