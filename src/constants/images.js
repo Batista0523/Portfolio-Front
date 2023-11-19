@@ -23,7 +23,7 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 import muIcon from '../assets/muIcons.png'
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.png'
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import canva from '../assets/Canva logo.png'
@@ -38,6 +38,7 @@ import viteLogo from '../assets/vite.png'
 import postgreslq from '../assets/postgresql.png';
 
 export default {
+  profile,
   postgreslq,
   viteLogo,
   muIcon,
